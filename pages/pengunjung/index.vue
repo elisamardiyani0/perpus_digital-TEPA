@@ -3,9 +3,12 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="text-center my-4">RIWAYAT KUNJUNGAN</h2>
-                <div class="my-3">
-                    <input type="search" class="form-control form-control-lg rounded-5" placeholder="filter...">
-                </div>
+                <form @submit.prevent="getPengunjung">
+                    <div class="my-3">
+                        <input v-model="keyword" type="search" class="form-control form-control-lg rounded-5" placeholder="filter...">
+                    </div>
+                </form>
+                
                  <div class="my-3 text-muted">menampilkan {{ visitors.length }} dari {{ hasil }}</div>
                  <table class="table">
                     <thead>
@@ -38,14 +41,15 @@
 <script setup>
 const supabase = useSupabaseClient()
 const visitors = ref([])
-const keyword = ref('')
+const keyword = ref([])
 const hasil = ref([])
 
 const getPengunjung = async () => {
     const {data,error } = await supabase.from('pengunjung').select(`*,keanggotaan(*),keperluan(*)`)
     .ilike('nama', `%${keyword.value}`)
     .order('id', {ascending: false})
-    if(data) visitors.value = data
+    if(data) visitors.value = data;
+    if (error) throw error
 }
 const pengunjung = async () => {
     const {data, count} = await supabase.from('pengunjung').select(`*`, {count: 'exact'})

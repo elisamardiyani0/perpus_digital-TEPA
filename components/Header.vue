@@ -4,7 +4,7 @@
             <img src="~/assets/img/logo.png" alt="logo">
         </div>
 
-    <div class="col-lg-11">
+    <div class="col-lg-3 ms-3">
         <h1>PERPUS DIGITAL</h1>
         <address>
         <div>SMKN 4 Tasikmalaya</div>
@@ -18,5 +18,8 @@
 .bg-primary{
     background-color: #009ADC !important;
 
+}
+img{
+    width: 110px;
 }
 </style>
