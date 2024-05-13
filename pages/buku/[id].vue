@@ -30,7 +30,7 @@
   </div>
 
   <div class="d-flex justify-content-end">
-        <nuxt-link to="/" class="btn btn-warning btn-lg rounded-5 px-5">BACK</nuxt-link>
+        <nuxt-link to="../buku" class="btn btn-warning btn-lg rounded-5 px-5">BACK</nuxt-link>
   </div>
 
 </template>
