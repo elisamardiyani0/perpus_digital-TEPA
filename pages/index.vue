@@ -87,7 +87,7 @@
       font-size: 7rem;
     }
     .card{
-        widh: 50%;
+        width: 50%;
         margin-left:20%;
     }
   </style>
