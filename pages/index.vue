@@ -86,9 +86,17 @@
     .text > h1 {
       font-size: 7rem;
     }
+   
   </style>
 
 <script setup>
+useHead({
+  title:"PERPUS DIGITAL",
+  meta:[{
+    name:"description",
+    content:'Halaman menu',
+  }]
+})
 const supabase = useSupabaseClient();
 
 const totalp=ref(0);

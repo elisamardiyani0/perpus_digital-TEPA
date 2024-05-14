@@ -20,6 +20,7 @@
 
 }
 img{
-    width: 110px;
+    width: 115px;
+    height: 110px;
 }
 </style>
