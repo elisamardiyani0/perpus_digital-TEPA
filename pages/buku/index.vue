@@ -73,8 +73,5 @@
 .btn-warning{
     box-shadow: 1px 1px 10px #403610 !important;
 }
-.card{
-    width: 50%;
-}
 </style>
 
