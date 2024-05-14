@@ -20,6 +20,6 @@
 
 }
 img{
-    width: 10%;
+    width: 110px;
 }
 </style>
