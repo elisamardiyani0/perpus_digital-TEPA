@@ -1,7 +1,7 @@
 <template>
     <div class="row p-3 bg-primary text-white">
         <div class="col-lg-1">
-            <img src="~/assets/img/logo.png" alt="logo">
+            <img src="~/assets/img/logo.webp" alt="logo">
         </div>
 
     <div class="col-lg-3 ms-3">
@@ -20,6 +20,6 @@
 
 }
 img{
-    width: 110px;
+    width: 10%;
 }
 </style>
