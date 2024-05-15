@@ -1,10 +1,10 @@
 <template>
     <div class="row p-3 bg-primary text-white">
-        <div class="col-lg-1">
+        <div class="col-lg-1 ms-5">
             <img src="~/assets/img/logo.webp" alt="logo">
         </div>
 
-    <div class="col-lg-3 ms-3">
+    <div class="col-lg-3 me-5">
         <h1>PERPUS DIGITAL</h1>
         <address>
         <div>SMKN 4 Tasikmalaya</div>
@@ -20,7 +20,9 @@
 
 }
 img{
-    width: 115px;
-    height: 110px;
+    width: 100px;
+}
+.col-lg-1{
+    margin-right: 1%;
 }
 </style>
