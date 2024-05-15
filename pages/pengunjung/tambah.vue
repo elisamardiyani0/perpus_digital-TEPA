@@ -16,17 +16,19 @@
                     </div>
                     <div class="mb-3" >
                         <div class="row" v-if="form.keanggotaan == '2'">
-                            
+                            <div class="mb-3">
+
                                 <select v-model="form.tingkat" class="form-control form-control-lg form-select rounded-5 mb-2">
                                     <option value="">TINGKAT</option>
                                     <option value="X">X</option>
                                     <option value="XI">XI</option>
                                     <option value="XII">XII</option>
                                 </select>
+                            </div>
                             
 
                             <div class="mb-3">
-                                <select v-model="form.jurusan" class="form-control form-control-lg from-select rounded-5 mb-2">
+                                <select v-model="form.jurusan" class="form-control form-control-lg form-select rounded-5 mb-2">
                                     <option value="">JURUSAN</option>
                                     <option value="PPLG">PPLG</option>
                                     <option value="TKJ">TKJ</option>
