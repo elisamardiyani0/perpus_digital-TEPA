@@ -59,18 +59,18 @@
       box-shadow: 1px 1px 10px #424242;
     }
     .card.bg-pengunjung {
-      background-image: url("../assets/img/bg-kunjungan1.webp");
+      background-image: url("../assets/img/kunjungan.webp");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
       color: #0c0101;
-      opacity: 50%;
+    
     }
     .card.bg-buku {
-      background: url("../assets/img/bg-home1.webp") no-repeat center center;
+      background: url("../assets/img/caribuku.webp") no-repeat center center;
       background-size: cover;
       color: #180101;
-      opacity: 50%;
+     
     }
     .card.pengunjung {
       background-color: #f3eebb;
