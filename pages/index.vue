@@ -52,8 +52,12 @@
     </div>
   
   </template>
+   
     
     <style scoped>
+    * {
+      text-decoration: none;
+    }
     .card {
       height: 250px;
       box-shadow: 1px 1px 10px #424242;
